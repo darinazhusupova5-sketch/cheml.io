@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Теория — Виртуальная лаборатория</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="container header-content">
+      <div class="logo">Виртуальная <span>лаборатория</span></div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="theory.html" class="active">Теория</a></li>
+          <li><a href="labs/titration.html">Титрование</a></li>
+          <li><a href="labs/electrochemistry.html">Электрохимия</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container" style="padding: 40px 20px;">
+    <h1 style="text-align:center; margin-bottom:30px; color:#0d3b66;">Теоретические основы</h1>
+
+    <div class="topic" style="background:white; padding:25px; margin-bottom:25px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+      <h2><i class="fas fa-tint"></i> Кислотно-основное титрование</h2>
+      <p>Кислотно-основное титрование — метод количественного анализа, основанный на реакции нейтрализации. При титровании слабой кислоты сильным основанием в растворе устанавливается буферная система, описываемая уравнением Гендерсона–Гассельбаха:</p>
+      <p style="text-align:center; font-style:italic; background:#f1f8f7; padding:8px; margin:15px 0; border-radius:4px;">
+        pH = pK<sub>a</sub> + log([A⁻]/[HA])
+      </p>
+      <p>В точке эквивалентности pH > 7 из-за гидролиза соли.</p>
+      <a href="labs/titration.html" class="btn" style="margin-top:15px;">Перейти к симуляции</a>
+    </div>
+
+    <div class="topic" style="background:white; padding:25px; margin-bottom:25px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+      <h2><i class="fas fa-bolt"></i> Электрохимия</h2>
+      <p>ЭДС гальванического элемента рассчитывается по уравнению Нернста:</p>
+      <p style="text-align:center; font-style:italic; background:#f1f8f7; padding:8px; margin:15px 0; border-radius:4px;">
+        E = E⁰ + (0.059/n) · log([Ox]/[Red]) (при 25°C)
+      </p>
+      <p>Масса вещества при электролизе определяется законами Фарадея.</p>
+      <a href="labs/electrochemistry.html" class="btn" style="margin-top:15px;">Перейти к симуляции</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      Кафедра общей химии • ВУЗ • © 2025
+    </div>
+  </footer>
+
+</body>
+</html>
